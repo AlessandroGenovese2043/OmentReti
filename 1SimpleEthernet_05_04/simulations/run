@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/simpleethernet_05_04 -n .:../src $*
+# for shared lib, use: opp_run -l ../src/simpleethernet_05_04 -n .:../src $*
